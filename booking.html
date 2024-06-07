@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip</title>
+    <link rel="stylesheet" href="css/booking.css">
+</head>
+<body>
+    <section class="pagestart">
+        <div class="bookingimg">
+            <img src="img/booking.jpg" height="555px" alt="Booking img">
+        </div>
+        <div class="container">
+            <div class="header">BOOK NOW </div>
+            <a style="text-decoration: none;" href="./index.html">Go Back</a>
+            <form class="booking-form">
+                <h4>Where To</h4>
+                <input type="text" placeholder="search places">
+                <h4>How Many</h4>
+                <input type="number" placeholder="number of guests">
+                <h4>Arrivals</h4>
+                <input type="date" placeholder="Arrival Date">
+                <h4>Leaving</h4>
+                <input type="date" placeholder="Departure Date">
+            </form>
+            <div>
+                <button class="bookbutton" onclick="redirectToPage()" role="button">Book Now</button>
+                <script>
+                    function redirectToPage(){
+                      window.location.href = "rooms.html";
+                    }
+                    </script>
+                </div>
+            
+            
+        </div>
+    </section>
+    
+</body>
+</html>
